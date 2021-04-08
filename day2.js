@@ -14,15 +14,16 @@
 // countTheBits( 65535 ) //=> 16
 
 function countTheBits(num) {
-	const biNum = num.prototype.toString(2);
+	const biNum = num.toString(2);
 	let count = 0;
 	for (i = 0; i < biNum.length; i++) {
-		if ((biNum(i) = 1)) {
+		if (biNum[i] == 1) {
 			count += 1;
 		}
 	}
 	return count;
 }
+console.log(countTheBits(13)); // => 3
 
 // Prompt:
 // Write a function called addChecker that accepts two arguments.

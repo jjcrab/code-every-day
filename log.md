@@ -7,3 +7,11 @@
 ### Thoughts: Happy to start.
 
 ### Link to work: [day 1](day1.js)
+
+## Day 2: April 07, 2021
+
+### Today's Progress: Started learning Python and I really like it. It's pretty elegant especially after using Javascript.Complete the bonus in lab exercise (using lambda function and slice). Start the Hack Week also.
+
+### Thoughts: Very excited about Python and enjoy and look forward to learning more about it.
+
+### Link to work: [day 2](day2.js)
