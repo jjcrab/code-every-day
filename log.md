@@ -23,3 +23,11 @@
 ### Thoughts: Phthon is very powerful and it has many methods.
 
 ### Link to work: [day 3](day3.py)
+
+## Day 4: April 09, 2021
+
+### Today's Progress: Learned Django. Do Python code challenge from Codewars.
+
+### Thoughts: Django is very different from MongoDB. But I like it.
+
+### Link to work: [day 4](day4.py)
