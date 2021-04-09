@@ -22,4 +22,4 @@
 
 ### Thoughts: Phthon is very powerful and it has many methods.
 
-### Link to work: [day 3](day3/challenges.py)
+### Link to work: [day 3](day3/cc_more_python/challenges.py)
