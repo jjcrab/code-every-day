@@ -9,3 +9,15 @@ def people_with_age_drink(age):
         return 'drink beer'
     if age >= 21:
         return 'drink whisky'
+
+
+# https: // www.codewars.com/kata/5417423f9e2e6c2f040002ae/train/python
+def digitize(n):
+    n_str = str(n)
+    result_list = []
+    for i in range(len(n_str)):
+        result_list.append(int(n_str[i]))
+    return result_list
+
+
+print(digitize(235))
