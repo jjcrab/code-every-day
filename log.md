@@ -39,3 +39,11 @@
 ### Thoughts: Working on open sources. One pull request is approved.
 
 ### Link to work: [day 5](day5.py)
+
+## Day 6: April 11, 2021
+
+### Today's Progress: Enjoying this open source:https://github.com/shubham1172/remote-play. Solve one tricky challenge in Codewars.
+
+### Thoughts: Want to know more about PyAutoGUI and fastapi.
+
+### Link to work: [day 6](day6.py)
