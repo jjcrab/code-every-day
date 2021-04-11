@@ -15,3 +15,7 @@
 ## Day 4: April 09, 2021
 
 ### Link to work: [day 4](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-4-april-09-2021)
+
+## Day 5: April 10, 2021
+
+### Link to work: [day 5](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-4-april-10-2021)

@@ -31,3 +31,11 @@
 ### Thoughts: Django is very different from MongoDB. But I like it.
 
 ### Link to work: [day 4](day4.py)
+
+## Day 5: April 10, 2021
+
+### Today's Progress: Used Python set to solve a code challenge from Codewars.
+
+### Thoughts: Working on open sources. One pull request is appoved.
+
+### Link to work: [day 5](day5.py)
