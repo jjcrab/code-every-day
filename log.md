@@ -36,6 +36,6 @@
 
 ### Today's Progress: Used Python set to solve a code challenge from Codewars.
 
-### Thoughts: Working on open sources. One pull request is appoved.
+### Thoughts: Working on open sources. One pull request is approved.
 
 ### Link to work: [day 5](day5.py)
