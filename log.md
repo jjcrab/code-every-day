@@ -47,3 +47,11 @@
 ### Thoughts: Want to know more about PyAutoGUI and fastapi.
 
 ### Link to work: [day 6](day6.py)
+
+## Day 7: April 12, 2021
+
+### Today's Progress: Understanding Django CRUD (create and read). Learned a lot from classmates' presentation. Did one Python challenge in Codewars.
+
+### Thoughts: Found some questions about Django while doing exercise and tried to do some research and slove myself.
+
+### Link to work: [day 7](day7.py)
