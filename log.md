@@ -55,3 +55,11 @@
 ### Thoughts: Found some questions about Django while doing exercise and tried to do some research and slove myself.
 
 ### Link to work: [day 7](day7.py)
+
+## Day 8: April 13, 2021
+
+### Today's Progress: Learned Django CRUD (update and delete) and Django REST Framework. Did two code challenge in Codewars.
+
+### Thoughts: Django is cool and it has a lot of built-in features. No need postman for testing.
+
+### Link to work: [day 8](day8.py)

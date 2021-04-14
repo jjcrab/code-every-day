@@ -22,8 +22,12 @@
 
 ## Day 6: April 11, 2021
 
-### Link to work: [day 6](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-6-april-10-2021)
+### Link to work: [day 6](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-6-april-11-2021)
 
 ## Day 7: April 12, 2021
 
-### Link to work: [day 7](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-7-april-10-2021)
+### Link to work: [day 7](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-7-april-12-2021)
+
+## Day 8: April 13, 2021
+
+### Link to work: [day 8](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-8-april-13-2021)
