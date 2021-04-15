@@ -31,3 +31,7 @@
 ## Day 8: April 13, 2021
 
 ### Link to work: [day 8](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-8-april-13-2021)
+
+## Day 9: April 14, 2021
+
+### Link to work: [day 9](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-9-april-14-2021)

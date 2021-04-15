@@ -63,3 +63,11 @@
 ### Thoughts: Django is cool and it has a lot of built-in features. No need postman for testing.
 
 ### Link to work: [day 8](day8.py)
+
+## Day 9: April 14, 2021
+
+### Today's Progress: Practice Django REST Framework and learn Django token auth. Did two code challenge in Codewars.
+
+### Thoughts: Building the Django mindset and liking it.
+
+### Link to work: [day 9](day9.py)
