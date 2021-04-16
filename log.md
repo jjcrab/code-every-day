@@ -71,3 +71,11 @@
 ### Thoughts: Building the Django mindset and liking it.
 
 ### Link to work: [day 9](day9.py)
+
+## Day 10: April 15, 2021
+
+### Today's Progress: Learned Django deployment (Heroku and AWS S3). Setting up definiltely not so easy. But still like Django.
+
+### Thoughts: Python is too powerful!
+
+### Link to work: [day 10](day10.py)
