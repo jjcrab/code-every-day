@@ -79,3 +79,11 @@
 ### Thoughts: Python is too powerful!
 
 ### Link to work: [day 10](day10.py)
+
+## Day 11: April 16, 2021
+
+### Today's Progress: Started project4. Understand mock interview process and got some good tips from instructors.
+
+### Thoughts: Good to know tech interview 5 steps process (understanding the question and talking the algorithm are very important). Start a spreadsheet for tech terms. Talk more about tech skills when introducing myself or talking about projects.
+
+### Link to work: [day 11](day11.py)
