@@ -87,3 +87,19 @@
 ### Thoughts: Good to know tech interview 5 steps process (understanding the question and talking the algorithm are very important). Start a spreadsheet for tech terms. Talk more about tech skills when introducing myself or talking about projects.
 
 ### Link to work: [day 11](day11.py)
+
+## Day 12: April 17, 2021
+
+### Today's Progress: Learning docker. Created simple project with django and docker.
+
+### Thoughts: Learning a new tech is like a rabbit hole. Fun but need patience.
+
+### Link to work: [day 12](day12.py)
+
+## Day 13: April 18, 2021
+
+### Today's Progress:
+
+### Thoughts:
+
+### Link to work: [day 13](day13.py)
