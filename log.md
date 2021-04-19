@@ -103,3 +103,11 @@
 ### Thoughts: Learn from others' solutions.
 
 ### Link to work: [day 13](day13.py)
+
+## Day 14: April 19, 2021
+
+### Today's Progress:
+
+### Thoughts:
+
+### Link to work: [day 14](day14.py)

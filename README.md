@@ -51,3 +51,7 @@
 ## Day 13: April 18, 2021
 
 ### Link to work: [day 13](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-13-april-18-2021)
+
+## Day 14: April 19, 2021
+
+### Link to work: [day 14](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-14-april-19-2021)
