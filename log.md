@@ -98,8 +98,8 @@
 
 ## Day 13: April 18, 2021
 
-### Today's Progress:
+### Today's Progress: Learned python enumerate() and docker volume.
 
-### Thoughts:
+### Thoughts: Learn from others' solutions.
 
 ### Link to work: [day 13](day13.py)

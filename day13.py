@@ -8,4 +8,5 @@ def accum(s):
     return result[0:len(result)-1]
 
 
-print(accum('fdaItn'))
+# def accum(s):
+#     return '-'.join(c.upper() + c.lower() * i for i, c in enumerate(s))
