@@ -106,8 +106,8 @@
 
 ## Day 14: April 19, 2021
 
-### Today's Progress:
+### Today's Progress: Learned how to use ValidationError to customize validators for django models. Enjoy checking others' solution in codewars.
 
-### Thoughts:
+### Thoughts: Should be clam and patient to read Django document about user auth.
 
 ### Link to work: [day 14](day14.py)
