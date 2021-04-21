@@ -111,3 +111,11 @@
 ### Thoughts: Should be clam and patient to read Django document about user auth.
 
 ### Link to work: [day 14](day14.py)
+
+## Day 15: April 20, 2021
+
+### Today's Progress: Learned ord and chr in python.
+
+### Thoughts: Trying to figure out user auth and models relationships.
+
+### Link to work: [day 15](day15.py)
