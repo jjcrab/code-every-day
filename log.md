@@ -119,3 +119,11 @@
 ### Thoughts: Trying to figure out user auth and models relationships.
 
 ### Link to work: [day 15](day15.py)
+
+## Day 16: April 21, 2021
+
+### Today's Progress: Finish user auth for project 4 using Django, finally.
+
+### Thoughts: Know where to find and read the error message in Network is sooo important and useful! Next will be uploading file in React and fix the student profile which should connect to user.
+
+### Link to work: [day 16](day16.py)
