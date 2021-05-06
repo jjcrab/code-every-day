@@ -127,3 +127,11 @@
 ### Thoughts: Know where to find and read the error message in Network is sooo important and useful! Next will be uploading file in React and fix the student profile which should connect to user.
 
 ### Link to work: [day 16](day16.py)
+
+## Day 17: May 6, 2021
+
+### Today's Progress: Continue the challenge. Solve two leetcode problems with Python.
+
+### Thoughts: Hash table/ dictionary is an efficient way to search key value pair.
+
+### Link to work: [day 17](day17.py) (day17_2.py)

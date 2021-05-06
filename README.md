@@ -63,3 +63,7 @@
 ## Day 16: April 21, 2021
 
 ### Link to work: [day 16](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-16-april-21-2021)
+
+## Day 17: May 6, 2021
+
+### Link to work: [day 17](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-17-may-6-2021)
