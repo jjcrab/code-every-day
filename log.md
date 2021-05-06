@@ -134,4 +134,4 @@
 
 ### Thoughts: Hash table/ dictionary is an efficient way to search key value pair. Many JS methods are similar in Python, but just need to use correctly.
 
-### Link to work: [day 17](day17.py) [day 17 (2)](day17_2.py)
+### Link to work: [day 17 two Sum](day17_twoSum.py) [day 17 reverse Integer)](day17_reverseInteger.py)
