@@ -130,8 +130,8 @@
 
 ## Day 17: May 6, 2021
 
-### Today's Progress: Continue the challenge. Solve two leetcode problems with Python.
+### Today's Progress: Continue the challenge. Solve two leetcode problems with Python.Getting familia with Python syntax.
 
-### Thoughts: Hash table/ dictionary is an efficient way to search key value pair.
+### Thoughts: Hash table/ dictionary is an efficient way to search key value pair. Many JS methods are similar in Python, but just need to use correctly.
 
 ### Link to work: [day 17](day17.py) (day17_2.py)
