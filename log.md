@@ -135,3 +135,11 @@
 ### Thoughts: Hash table/ dictionary is an efficient way to search key value pair. Many JS methods are similar in Python, but just need to use correctly.
 
 ### Link to work: [day 17 two Sum](day17_twoSum.py) [day 17 reverse Integer)](day17_reverseInteger.py)
+
+## Day 18: May 7, 2021
+
+### Today's Progress: Did 4 code code challenge. Learned the smart way to solve Roman to Integer.
+
+### Thoughts: Should review data structure repos. When can I solve problem faster?!
+
+### Link to work: [day 18 Longest Common Prefix](day18_commonPrefix.py) [day 18 Interger to Roman](day18_intergerToRoman.py) [day 18 Roman to Integer](day18_romanToInteger.py) [day 18 Palindrome Number](day18_palindromeNumber.py)
