@@ -143,3 +143,11 @@
 ### Thoughts: Should review data structure repos. When can I solve problem faster?!
 
 ### Link to work: [day 18 Longest Common Prefix](day18_commonPrefix.py) [day 18 Interger to Roman](day18_intergerToRoman.py) [day 18 Roman to Integer](day18_romanToInteger.py) [day 18 Palindrome Number](day18_palindromeNumber.py)
+
+## Day 19: May 8, 2021
+
+### Today's Progress: Did one code code challenge using stacks.
+
+### Thoughts: stack - first come first out.
+
+### Link to work: [day 19 Valid Parantheses](day19_validParantheses.py)

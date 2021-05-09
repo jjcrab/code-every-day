@@ -20,13 +20,23 @@ def longestCommonPrefix(strs):
 
     # return result
 
-    short_word = min(strs, key=len)
-    for x in range(len(short_word)):
-        letter = short_word[x]
-        for word in strs:
-            if word[x] != letter:
-                return short_word[:x]
-    return short_word
+    # short_word = min(strs, key=len)
+    # for x in range(len(short_word)):
+    #     letter = short_word[x]
+    #     for word in strs:
+    #         if word[x] != letter:
+    #             return short_word[:x]
+    # return short_word
+
+    l = list(zip(*strs))
+    # print(l)
+    prefix = ""
+    for i in l:
+        if len(set(i)) == 1:
+            prefix += i[0]
+        else:
+            break
+    return prefix
 
 
 print(longestCommonPrefix(["flower", "flow", "flight"]))
