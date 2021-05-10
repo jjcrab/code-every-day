@@ -151,3 +151,11 @@
 ### Thoughts: stack - first come first out.
 
 ### Link to work: [day 19 Valid Parantheses](day19_validParantheses.py)
+
+## Day 20: May 9, 2021
+
+### Today's Progress: Review linked lists and practiced two pointers approach and did three code challenge.
+
+### Thoughts:
+
+### Link to work: [day 20 Merge Two Sorted Lists](day19_mergeSortedLists.py) [day 20 Remove Duplicates from array](day20_removeDuplicates.py) [day 20 remove Element](day20_removeElememt.py)
