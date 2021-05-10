@@ -12,7 +12,7 @@ def strStr(haystack, needle):
     # return -1
     if needle in haystack:
         res = haystack.index(needle)
-        res = haystack.find(needle)
+        # res = haystack.find(needle)
         return res
     else:
         return -1

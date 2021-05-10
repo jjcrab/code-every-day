@@ -158,4 +158,4 @@
 
 ### Thoughts:
 
-### Link to work: [day 20 Merge Two Sorted Lists](day19_mergeSortedLists.py) [day 20 Remove Duplicates from array](day20_removeDuplicates.py) [day 20 remove Element](day20_removeElememt.py)
+### Link to work: [day 20 Merge Two Sorted Lists](day19_mergeSortedLists.py) [day 20 Remove Duplicates from array](day20_removeDuplicates.py) [day 20 remove Element](day20_removeElememt.py) [day 20 Implement strStr()](day20_implementStr.py)
