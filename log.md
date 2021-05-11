@@ -154,8 +154,16 @@
 
 ## Day 20: May 9, 2021
 
-### Today's Progress: Review linked lists and practiced two pointers approach and did three code challenge.
+### Today's Progress: Review linked lists and practiced two pointers approach and two other code challenges.
 
 ### Thoughts:
 
 ### Link to work: [day 20 Merge Two Sorted Lists](day19_mergeSortedLists.py) [day 20 Remove Duplicates from array](day20_removeDuplicates.py) [day 20 remove Element](day20_removeElememt.py) [day 20 Implement strStr()](day20_implementStr.py)
+
+## Day 21: May 10, 2021
+
+### Today's Progress: Review binary search and use dynamic programing to solve one problem. Start building portfolio site.
+
+### Thoughts: Need to adjust schedule for time management.
+
+### Link to work: [day 21 max subarray](day21_maxSubarray.py) [day 21 Practice Looping](day21_practiveLooping.py) [day 21 Search Insert Position](day21_searchInsertPosition.py)

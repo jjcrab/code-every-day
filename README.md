@@ -78,4 +78,8 @@
 
 ## Day 20: May 9, 2021
 
-### Link to work: [day 19](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-19-may-9-2021)
+### Link to work: [day 19](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-20-may-9-2021)
+
+## Day 21: May 10, 2021
+
+### Link to work: [day 19](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-21-may-10-2021)
