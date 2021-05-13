@@ -167,3 +167,19 @@
 ### Thoughts: Need to adjust schedule for time management.
 
 ### Link to work: [day 21 max subarray](day21_maxSubarray.py) [day 21 Practice Looping](day21_practiveLooping.py) [day 21 Search Insert Position](day21_searchInsertPosition.py)
+
+## Day 22: May 11, 2021
+
+### Today's Progress: Try to solve problem set "Add Number". Learned some binary features (XOR, carry, <<, >>). Practice exception handdling.
+
+### Thoughts: Plus One Linked List is not easy to understand. Need to come back to review the problem in the future.
+
+### Link to work: [day 22 Add Binary](day22_addBinary.py) [day 22 Practice exception handdling](day22_practiveExceptionHanddling.py) [day 22 Plus One](day22_plusOne.py) [day 22 Plus One Linked list](day22_plusOneLinkedList.py)
+
+## Day 23: May 12, 2021
+
+### Today's Progress: Practiced unicode and character transfer, reviewed OOP, and used binary search and greedy method to solve problems.
+
+### Thoughts: OOP can be another 3 months class! How much is enough for interview?
+
+### Link to work: [day 23 Jump Game](day23_jumpGame.py) [day 23 Practice Math Strings](day23_practiceMathStrings.py) [day 23 sqrt](day23_sqrt.py)
