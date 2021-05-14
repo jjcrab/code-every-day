@@ -183,3 +183,11 @@
 ### Thoughts: OOP can be another 3 months class! How much is enough for interview?
 
 ### Link to work: [day 23 Jump Game](day23_jumpGame.py) [day 23 Practice Math Strings](day23_practiceMathStrings.py) [day 23 sqrt](day23_sqrt.py)
+
+## Day 24: May 13, 2021
+
+### Today's Progress: Practiced hash table/dic and Greedy method.Try to undersand Dynamic Programming.
+
+### Thoughts: are you sure DP is not death penalty?
+
+### Link to work: [day 24 Fizz Buzz](day24_fizzBuzz.py) [day 24 Practice String Functions](day24_practiceStringFunctions.py) [day 24 other exercise](day24_exercise.py)

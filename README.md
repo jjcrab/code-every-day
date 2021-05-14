@@ -91,3 +91,7 @@
 ## Day 23: May 12, 2021
 
 ### Link to work: [day 23](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-23-may-12-2021)
+
+## Day 24: May 13, 2021
+
+### Link to work: [day 24](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-24-may-13-2021)
