@@ -11,15 +11,12 @@
 #     print('if x is not None')
 
 
-# list1 = [1, 4, 2]
-# # list2 = list1
-# list2 = [i for i in list1]
-# list2.append('o')
-# print(list1)
+# def indexOf(self, list, val):
+#     if val in list:
+#         return list.index(val)
+#     else:
+#         return -1
 
-
-def indexOf(self, list, val):
-    if val in list:
-        return list.index(val)
-    else:
-        return -1
+# n = ord('123')
+n = ord('9') - ord('0')
+print(n)

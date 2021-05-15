@@ -186,8 +186,16 @@
 
 ## Day 24: May 13, 2021
 
-### Today's Progress: Practiced hash table/dic and Greedy method.Try to undersand Dynamic Programming.
+### Today's Progress: Practiced hash table/dic and Greedy method.Try to understand Dynamic Programming.
 
 ### Thoughts: are you sure DP is not death penalty?
 
 ### Link to work: [day 24 Fizz Buzz](day24_fizzBuzz.py) [day 24 Practice String Functions](day24_practiceStringFunctions.py) [day 24 other exercise](day24_exercise.py)
+
+## Day 25: May 14, 2021
+
+### Today's Progress: Learned more about reference and did couple code challenges.
+
+### Thoughts: Finally understand where the errors from regarding reference. Tuple reference can be very tricky and interesting.
+
+### Link to work: [day 25 Can Convert](day25_canConvert.py) [day 25 Captitalize First Letter](day25_capitalizeFirstLetter.py) [day 25 Practice Reference](day25_practiceReference.py) [day 25 Reverse Words In A String](day25_reverseWordsInAString.py) [day 25 Valid Palindrome](day25_validPalindrome.py)
