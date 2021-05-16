@@ -199,3 +199,11 @@
 ### Thoughts: Finally understand where the errors from regarding reference. Tuple reference can be very tricky and interesting.
 
 ### Link to work: [day 25 Can Convert](day25_canConvert.py) [day 25 Captitalize First Letter](day25_capitalizeFirstLetter.py) [day 25 Practice Reference](day25_practiceReference.py) [day 25 Reverse Words In A String](day25_reverseWordsInAString.py) [day 25 Valid Palindrome](day25_validPalindrome.py)
+
+## Day 26: May 15, 2021
+
+### Today's Progress: Keep working on portfolio site and did couple simple OOP and function exercise.
+
+### Thoughts:
+
+### Link to work: [day 26 Practice OOP](day26_practiceOOP.py) [day 26 Practice Function](day26_practiceFunction.py)

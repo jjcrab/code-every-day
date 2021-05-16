@@ -99,3 +99,7 @@
 ## Day 25: May 14, 2021
 
 ### Link to work: [day 25](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-25-may-14-2021)
+
+## Day 26: May 15, 2021
+
+### Link to work: [day 26](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-26-may-15-2021)
