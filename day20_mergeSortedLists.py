@@ -24,6 +24,25 @@ def mergeTwoLists(l1: ListNode, l2: ListNode) -> ListNode:
     cur.next = l1 or l2
     return head.next
 
+    # if l1 is None:
+    #     return l2
+    # if l2 is None:
+    #     return l1
+    # l1_cur = l1
+    # l2_cur = l2
+    # l3_head = ListNode(0)
+    # l3_cur = l3_head
+    # while l1_cur is not None and l2_cur is not None:
+    #     if l1_cur.val<=l2_cur.val:
+    #         l3_cur.next = l1_cur
+    #         l1_cur = l1_cur.next
+    #     else:
+    #         l3_cur.next = l2_cur
+    #         l2_cur = l2_cur.next
+    #     l3_cur = l3_cur.next
+    # l3_cur.next = l1_cur if l1_cur else l2_cur
+    # return l3_head.next
+
 
 def createlist(inp):
     l1 = ListNode()

@@ -103,3 +103,23 @@
 ## Day 26: May 15, 2021
 
 ### Link to work: [day 26](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-26-may-15-2021)
+
+## Day 27: May 16, 2021
+
+### Link to work: [day 26](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-27-may-16-2021)
+
+## Day 28: May 17, 2021
+
+### Link to work: [day 28](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-28-may-17-2021)
+
+## Day 29: May 18, 2021
+
+### Link to work: [day 29](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-29-may-18-2021)
+
+## Day 30: May 23, 2021
+
+### Link to work: [day 30](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-30-may-23-2021)
+
+## Day 31: May 24, 2021
+
+### Link to work: [day 31](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-31-may-24-2021)

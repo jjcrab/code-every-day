@@ -207,3 +207,43 @@
 ### Thoughts:
 
 ### Link to work: [day 26 Practice OOP](day26_practiceOOP.py) [day 26 Practice Function](day26_practiceFunction.py)
+
+## Day 27: May 16, 2021
+
+### Today's Progress: Did couple Fibonacci sequence related exercise with different ways.
+
+### Thoughts:
+
+### Link to work: [day 27 Fibaonacci](day27_fibonacci.py) [day 27 Climbing Stairs](day27_climbingStairs.py)
+
+## Day 28: May 17, 2021
+
+### Today's Progress: 1st day of Hackathon. Did one palindrome code code challenge
+
+### Thoughts: Very excited and also very busy for the hackathon. We have a nice group!
+
+### Link to work: [day 28 Palindrom Data Stream](day28_palindromeDataStream.py)
+
+## Day 29: May 18, 2021
+
+### Today's Progress: 2nd day of Hackathon. Did one palindrome code code challenge
+
+### Thoughts: Enjoyed hackathon although git is giving me trouble.
+
+### Link to work: [day 29 Valid Palindrom2](day29_validPalindrome2.py)
+
+## Day 30: May 23, 2021
+
+### Today's Progress: Keep practising Linked List. Did one new code code challenge and review one previous Linked List exercise (Merge Two Sorted Linked List)
+
+### Thoughts: Finally get back to normal routine after Hackathon.
+
+### Link to work: [day 30 Reverse Linked List](day30_reverseLinkedList.py)
+
+## Day 31: May 24, 2021
+
+### Today's Progress: Keep practising Linked List and did 4 string questions.
+
+### Thoughts: Should start turning on the timer when doing exercise.
+
+### Link to work: [day 31 Insert Node In Sorted Linked List](day31_insertNodeInSortedLinkedList.py) [day 31 remove Linked List Elements](day31_removeLinkedListElements.py) [day 31 String Practices](day31_stringPractices.py)
