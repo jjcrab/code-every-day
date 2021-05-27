@@ -247,3 +247,19 @@
 ### Thoughts: Should start turning on the timer when doing exercise.
 
 ### Link to work: [day 31 Insert Node In Sorted Linked List](day31_insertNodeInSortedLinkedList.py) [day 31 remove Linked List Elements](day31_removeLinkedListElements.py) [day 31 String Practices](day31_stringPractices.py)
+
+## Day 32: May 25, 2021
+
+### Today's Progress: Keep practising Linked List and learn Stack and Queue.
+
+### Thoughts: Pseudo code is really helping for harder questions. Rabbit and turtle technique is very cool.
+
+### Link to work: [day 32 Middle Of Linked List](day32_middleOfLinkedList.py) [day 32 rotate linked list](day32_rotateList.py)
+
+## Day 33: May 26, 2021
+
+### Today's Progress: Keep practising Linked List and keep learning Stack and Queue.
+
+### Thoughts: Having child method is more efficient for those questions need a lot of codes. After these several days doing Linked list exercises. Finally feel comfortable about it.
+
+### Link to work: [day 33 Practice coverting Between Linked List and Array List](day33_convertBetweenLinkedLIstandArrayList.py) [day 33 Remove Nth Node From End of List](day33_removeNthNodeFromEndOfList.py)

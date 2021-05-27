@@ -33,25 +33,33 @@ class Solution:
     """
 
     def insertNode(self, head, val):
-        # write your code here
-        dummy = ListNode(0)
-        dummy.next = head
 
-        insert_node = ListNode(val)
+        # dummy = ListNode(0)
+        # dummy.next = head
 
+        # insert_node = ListNode(val)
+
+        # pre = dummy
+        # cur = head
+        # if head is None:
+        #     return insert_node
+
+        # while cur:
+        #     if cur.val <= val:
+        #         pre = cur
+        #         cur = cur.next
+        #     else:
+        #         pre.next = insert_node
+        #         insert_node.next = cur
+        #         return dummy.next
+
+        # pre.next = insert_node
+        # return dummy.next
+
+        dummy = ListNode(0, head)
         pre = dummy
-        cur = head
-        if head is None:
-            return insert_node
-
-        while cur:
-            if cur.val <= val:
-                pre = cur
-                cur = cur.next
-            else:
-                pre.next = insert_node
-                insert_node.next = cur
-                return dummy.next
-
-        pre.next = insert_node
+        while pre.next and pre.next.val < val:
+            pre = pre.next
+        newNode = ListNode(val, pre.next)
+        pre.next = newNode
         return dummy.next

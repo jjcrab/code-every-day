@@ -123,3 +123,11 @@
 ## Day 31: May 24, 2021
 
 ### Link to work: [day 31](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-31-may-24-2021)
+
+## Day 32: May 25, 2021
+
+### Link to work: [day 31](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-32-may-25-2021)
+
+## Day 33: May 26, 2021
+
+### Link to work: [day 31](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-33-may-26-2021)
