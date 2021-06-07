@@ -12,20 +12,20 @@
 
 
 def fibonacci(n):
-    # result_list = [0, 1]
+    result_list = [0, 1]
     # # for i in range(2, n):
     # #     sum = result_list[i-2] + result_list[i-1]
     # #     result_list.append(sum)
     # # print(result_list)
     # # return result_list[n-1]
 
-    # for i in range(2, n+1):
-    #     result_list[i % 2] = result_list[0]+result_list[1]
-    # return result_list[(n+1) % 2]
+    for i in range(2, n+1):
+        result_list[i % 2] = result_list[0]+result_list[1]
+    return result_list[(n+1) % 2]
 
-    if n <= 2:
-        return n-1
-    return fibonacci(n-1) + fibonacci(n-2)
+    # if n <= 2:
+    #     return n-1
+    # return fibonacci(n-1) + fibonacci(n-2)
 
 
 print(fibonacci(1))
