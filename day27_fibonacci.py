@@ -30,3 +30,17 @@ def fibonacci(n):
 
 print(fibonacci(1))
 print(fibonacci(4))
+
+
+# memorization:
+#    def fibonacci(self, n):
+#         if n < 1:
+#             return -1
+#         arr = [0 for _ in range(n+1)]
+#         arr[2] = 1
+#         return self.getfib(n, arr)
+#     def getfib(self, n,arr):
+#         if n ==1 or arr[n]>0:
+#             return arr[n]
+#         arr[n] = self.getfib(n-1,arr)+self.getfib(n-2,arr)
+#         return arr[n]
