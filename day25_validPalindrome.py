@@ -24,8 +24,8 @@ def isPalindrome(s):
     #             right -= 1
     #         else:
     #             return False
-
     # return True
+
     s = ''.join(c for c in s if c.isalnum()).lower()
     start, end = 0, len(s)-1
     while (start < end):

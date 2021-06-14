@@ -25,12 +25,14 @@ Explanation:
     3
 '''
 
-
+import collections
 # Definition of TreeNode:
+
+
 class TreeNode:
     def __init__(self, val):
-        this.val = val
-        this.left, this.right = None, None
+        self.val = val
+        self.left, self.right = None, None
 # Definition for singly-linked list.
 
 

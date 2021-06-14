@@ -17,5 +17,23 @@ def strStr(haystack, needle):
     else:
         return -1
 
+    # s_len = len(source)
+    # t_len = len(target)
+
+    # if not target:
+    #     return 0
+    # if t_len > s_len:
+    #     return -1
+
+    # for i in range(s_len - t_len + 1):
+    #     j = 0
+    #     while j < t_len:
+    #         if target[j] != source[i+j]:
+    #             break
+    #         j += 1
+    #     if j == t_len:
+    #         return i
+    # return -1
+
 
 print(strStr('hello', "lo"))

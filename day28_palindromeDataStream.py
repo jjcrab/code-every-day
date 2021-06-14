@@ -17,3 +17,6 @@ def getStream(s):
         result[i] = 0 if oddcount > 1 else 1
 
     return result
+
+
+print(getStream('adfkkk'))

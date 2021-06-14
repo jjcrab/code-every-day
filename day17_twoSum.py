@@ -10,6 +10,20 @@ class Solution:
                 return [d[exp], i]
             d[v] = i
 
+        # two pointers
+        # nums = [(num, val) for val, num in enumerate(numbers)]
+        # nums.sort()
+
+        # left, right = 0, len(nums)-1
+        # while left < right:
+        #     if nums[left][0] + nums[right][0] == target:
+        #         return sorted([nums[left][1], nums[right][1]])
+        #     if nums[left][0] + nums[right][0] < target:
+        #         left += 1
+        #     else:
+        #         right -= 1
+        # return [-1, -1]
+
 #         nums_sorted = sorted(nums)
 #         if nums_sorted[0] == 0:
 #             return [0,nums.index(target,1)]
