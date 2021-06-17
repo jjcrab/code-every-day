@@ -50,9 +50,11 @@ class Solution:
                 nums[left], nums[right] = nums[right], nums[left]
                 left += 1
                 right -= 1
-
+        # start + k - 1 not k - 1
         if start + k - 1 <= right:
             return self.quickSelect(nums, start, right, k)
         if start + k - 1 >= left:
+            # k need to change
             return self.quickSelect(nums, left, end, k - (left - start))
+        # the pivot is between right and left
         return nums[right + 1]
