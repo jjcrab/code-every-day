@@ -1,14 +1,14 @@
 # https: // leetcode.com/problems/two-sum/solution/
 
 
-class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        d = {}
-        for i, v in enumerate(nums):
-            exp = target - v
-            if exp in d:
-                return [d[exp], i]
-            d[v] = i
+# class Solution:
+def twoSum(nums, target):
+    d = {}
+    for i, v in enumerate(nums):
+        exp = target - v
+        if exp in d:
+            return [d[exp], i]
+        d[v] = i
 
         # two pointers
         # nums = [(num, val) for val, num in enumerate(numbers)]
@@ -39,5 +39,4 @@ class Solution:
 #                             return [nums.index(nums_sorted[i]),nums.index(nums_sorted[j])]
 
 
-n = Solution([3, 4, 3], 6)
-print(n.twoSum())
+print(twoSum([3, 4, 3], 6))
