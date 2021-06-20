@@ -23,7 +23,7 @@ Output: [0]
 
 
 class Solution:
-    def sumZero(self, n: int) -> List[int]:
+    def sumZero(self, n: int):
         result = []
         mid = n // 2
         # if n % 2 == 0:
