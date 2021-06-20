@@ -131,3 +131,7 @@
 ## Day 33: May 26, 2021
 
 ### Link to work: [day 31](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-33-may-26-2021)
+
+## Day 52: June 19, 2021
+
+### Link to work: [day 52](https://github.com/jjcrab/code-every-day/blob/main/log.md#day-52-june-19-2021)

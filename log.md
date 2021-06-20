@@ -263,3 +263,11 @@
 ### Thoughts: Having child method is more efficient for those questions need a lot of codes. After these several days doing Linked list exercises. Finally feel comfortable about it.
 
 ### Link to work: [day 33 Practice coverting Between Linked List and Array List](day33_convertBetweenLinkedLIstandArrayList.py) [day 33 Remove Nth Node From End of List](day33_removeNthNodeFromEndOfList.py)
+
+## Day 52: June 19, 2021
+
+### Today's Progress: Keep doing Binary Search related coding challenges.
+
+### Thoughts: Finally reach 100 problems during this 100 days coding challenge.
+
+### Link to work: [day 52 Classical Binary Search](day52_classicalBinarySearch.py) [day 52 Find N Unique Intergers Sum Up To Zero](day52_findNUniqueIntergersSumUpToZero.py) [day 52 Find K Closest Elements](day52_findKclosestElements.py) [day 52 First Position Of Target](day52_firstPositionOfTarget.py) [day 52 Last Position Of Target](day52_lastPositionOfTarget.py)
