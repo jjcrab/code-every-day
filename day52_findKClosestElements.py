@@ -19,52 +19,103 @@ Output: [1,2,3,4]
 '''
 
 
+# class Solution:
+#     def findClosestElements(self, arr: List[int], k: int, x: int) -> List[int]:
+#         # find the bound of '<= target' first position (find the insert position of target)
+#         # face to face two pointers
+#         if k == 0:
+#             return []
+#         target_position = None
+#         result = []
+#         start, end = 0, len(arr) - 1
+#         while start + 1 < end:
+#             mid = (start + end) // 2
+#             if arr[mid] < x:
+#                 start = mid
+#             elif arr[mid] == x:
+#                 end = mid
+#             else:
+#                 end = mid
+#         if arr[start] == x:
+#             target_position = start
+#         elif arr[end] == x:
+#             target_position = end
+#         else:
+#             if abs(x - arr[start]) <= abs(x - arr[end]):
+#                 target_position = start
+#             else:
+#                 target_position = end
+
+#         result.append(arr[target_position])
+
+#         # compare left and right (take k number), back to back two pointers
+#         left, right = target_position - 1, target_position + 1
+#         while len(result) < k and left >= 0 and right <= len(arr) - 1:
+#             if abs(x - arr[left]) > abs(x - arr[right]):
+#                 result.append(arr[right])
+#                 right += 1
+#             else:
+#                 result.append(arr[left])
+#                 left -= 1
+#         if left < 0:
+#             for i in range(k-len(result)):
+#                 result.append(arr[right])
+#                 right += 1
+
+#         elif right > len(arr) - 1:
+#             for j in range(k - len(result)):
+#                 result.append(arr[left])
+#                 left -= 1
+
+#         return sorted(result)
+
+
 class Solution:
     def findClosestElements(self, arr: List[int], k: int, x: int) -> List[int]:
-        # find the bound of '<= target' first position (find the insert position of target)
-        # face to face two pointers
-        if k == 0:
-            return []
-        target_position = None
+        # use sort lambda function nlogn
+        #         sorted_arr = sorted(arr, key = lambda num: abs(num - x))
+        #         print(sorted_arr)
+        #         result = []
+        #         for i in range(k):
+        #             result.append(sorted_arr[i])
+        #         return sorted(result)
+
+        # use binary search and two pointers
+        # binary search for bound, right side: >= x, left side: < x
+        bound_index = self.findbound(arr, x)
+
+    # two pointer for picking numbers
+        left, right = bound_index - 1, bound_index
         result = []
+        for i in range(k):
+            if left < 0:
+                result.append(arr[right])
+                right += 1
+            elif right >= len(arr):
+                result.append(arr[left])
+                left -= 1
+            else:
+                if abs(x - arr[left]) <= abs(x - arr[right]):
+                    result.append(arr[left])
+                    left -= 1
+                else:
+                    result.append(arr[right])
+                    right += 1
+
+        return sorted(result)
+
+    # first position binary search
+    def findbound(self, arr, target):
         start, end = 0, len(arr) - 1
         while start + 1 < end:
             mid = (start + end) // 2
-            if arr[mid] < x:
+            if arr[mid] < target:
                 start = mid
-            elif arr[mid] == x:
-                end = mid
             else:
                 end = mid
-        if arr[start] == x:
-            target_position = start
-        elif arr[end] == x:
-            target_position = end
-        else:
-            if abs(x - arr[start]) <= abs(x - arr[end]):
-                target_position = start
-            else:
-                target_position = end
 
-        result.append(arr[target_position])
-
-        # compare left and right (take k number), back to back two pointers
-        left, right = target_position - 1, target_position + 1
-        while len(result) < k and left >= 0 and right <= len(arr) - 1:
-            if abs(x - arr[left]) > abs(x - arr[right]):
-                result.append(arr[right])
-                right += 1
-            else:
-                result.append(arr[left])
-                left -= 1
-        if left < 0:
-            for i in range(k-len(result)):
-                result.append(arr[right])
-                right += 1
-
-        elif right > len(arr) - 1:
-            for j in range(k - len(result)):
-                result.append(arr[left])
-                left -= 1
-
-        return sorted(result)
+        if arr[start] >= target:
+            return start
+        if arr[end] >= target:
+            return end
+        return len(arr)

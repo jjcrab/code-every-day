@@ -7,9 +7,7 @@
 # You may assume the integer does not contain any leading zero, except the number 0 itself.
 
 def plusOne(digits):
-    if digits[0] == 0:
-        return [1]
-
+    # method 1
     # sum = 0
     # for v in digits:
     #     sum = sum*10 + v
@@ -24,18 +22,29 @@ def plusOne(digits):
 
     # return list_result[::-1]
 
+    # method 2
+    # sum = 0
+    # for v in digits:
+    #     sum = sum * 10 + v
+
+    # sum += 1
+    # result = []
+    # for i in str(sum):
+    #     result.append(int(i))
+
+    # return result
+
+    # method 3
     if digits[-1] != 9:
         digits[-1] = digits[-1] + 1
         return digits
-    else:
-        digits[-1] = 0
-        for i in reversed(range(len(digits)-1)):
-            if digits[i] == 9:
-                digits[i] = 0
-            else:
-                digits[i] += 1
-                return digits
-        return [1] + digits
+    for i in reversed(range(len(digits))):
+        if digits[i] == 9:
+            digits[i] = 0
+        else:
+            digits[i] += 1
+            return digits
+    return [1] + digits
 
 
 print(plusOne([1, 2, 3]))
