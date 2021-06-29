@@ -32,19 +32,16 @@ Explanation: (97*33^3 + 98*33^2 + 99*33 + 100*1)%100 = 78
 '''
 
 
-# class Solution:
-#     """
-#     @param key: A string you should hash
-#     @param HASH_SIZE: An integer
-#     @return: An integer
-#     """
+class Solution:
+    """
+    @param key: A string you should hash
+    @param HASH_SIZE: An integer
+    @return: An integer
+    """
 
-#     def hashCode(self, key, HASH_SIZE):
-#         result = 0
-#         for i in key:
-#             result = (result * 33 + ord(i)) % HASH_SIZE
+    def hashCode(self, key, HASH_SIZE):
+        result = 0
+        for i in key:
+            result = (result * 33 + ord(i)) % HASH_SIZE
 
-#         return result
-
-x = 1
-print(x)
+        return result
