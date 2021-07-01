@@ -56,8 +56,8 @@ class Solution:
         # use dfs
         # edge case:
         result = []
-        if not nums:
-            return [[]]
+        # if not nums:
+        #     return [[]]
         self.dfs(nums, [], result)
         return result
 
