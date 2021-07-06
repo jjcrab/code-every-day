@@ -97,3 +97,18 @@ class Solution:
             self.dfs(nums, visited, permutation, result)
             visited.pop(i)
             permutation.pop()
+
+# method 3 use set
+
+    def permuteUnique(self, nums):
+        result = set()
+        nums.sort()
+        self.dfs(nums, [], result)
+        return list(result)
+
+    def dfs(self, nums, permutation, result):
+        if not nums:
+            result.add(tuple(permutation))
+            return
+        for i in range(len(nums)):
+            self.dfs(nums[:i] + nums[i + 1:], permutation + [nums[i]], result)

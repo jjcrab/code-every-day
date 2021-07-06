@@ -51,6 +51,7 @@ class Solution:
     @param nums: A set of numbers
     @return: A list of lists
     """
+# method 1 - consider next element
 
     def subsets(self, nums):
         if nums is None:
@@ -61,12 +62,36 @@ class Solution:
         return result
 
     def dfs(self, nums, index, subset, result):
-        # if index == len(nums):
-        #     return
-
         result.append(list(subset))
 
+        # add new element to subset
         for i in range(index, len(nums)):
             subset.append(nums[i])
             self.dfs(nums, i + 1, subset, result)
+            # backtrack/ next element
             subset.pop()
+
+
+# method 2 - pick or not pick
+
+
+    def subsets(self, nums):
+        result = []
+        if nums is None:
+            return result
+        nums.sort()
+        self.dfs(nums, 0, [], result)
+        return result
+
+    def dfs(self, nums, index, subset, result):
+        # last level
+        if index == len(nums):
+            result.append(list(subset))
+            # result.append(subset[:])
+            return
+        # pick
+        subset.append(nums[index])
+        self.dfs(nums, index + 1, subset, result)
+        # not pick
+        subset.pop()
+        self.dfs(nums, index + 1, subset, result)
