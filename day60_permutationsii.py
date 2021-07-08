@@ -67,7 +67,7 @@ class Solution:
             self.dfs(nums[:i] + nums[i + 1:], permutation + [nums[i]], result)
 
 
-# method 2
+# method 2 visited/hashmap
 
     def permuteUnique(self, nums):
         # use dfs
