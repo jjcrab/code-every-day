@@ -39,6 +39,7 @@ class Solution:
             radius = max(radius, self.find_closest_heater(house, heaters))
         return radius
 
+    # binary search
     def find_closest_heater(self, house, heaters):
         start, end = 0, len(heaters) - 1
         while start + 1 < end:
