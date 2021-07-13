@@ -36,8 +36,12 @@ class Solution:
         self.merge(start, mid, end, A, temp)
 
     def merge(self, start, mid, end, A, temp):
+        # merge two sides, left side start from start, right side start from mid + 1
         left, right = start, mid + 1
+        # record the index of element
         index = start
+        # compare left side each element to right side each element (both are from thier most left position since already sorted)
+
         while left <= mid and right <= end:
             if A[left] < A[right]:
                 temp[index] = A[left]
@@ -46,16 +50,17 @@ class Solution:
                 temp[index] = A[right]
                 right += 1
             index += 1
-
+        # after comparing, if left side still have elements not put in temp list, put them into temp list
         while left <= mid:
             temp[index] = A[left]
             left += 1
             index += 1
-
+        # after comparing, if right side still have elements not put in temp list, put them into temp list
         while right <= end:
             temp[index] = A[right]
             right += 1
             index += 1
 
+        # copy temp list to original list
         for index in range(start, end + 1):
             A[index] = temp[index]
