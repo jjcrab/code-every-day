@@ -60,3 +60,27 @@ class Solution:
     #             right -= 1
 
     #     return left
+
+
+class Solution:
+    """
+    @param nums: A list of integer which is 0, 1 or 2 
+    @return: nothing
+    """
+
+    def sortColors(self, nums):
+        # three pointers
+        left, cur, right = 0, 0, len(nums) - 1
+        while cur <= right:
+            if nums[cur] == 0:
+                nums[left], nums[cur] = nums[cur], nums[left]
+                left += 1
+                cur += 1
+            elif nums[cur] == 1:
+                cur += 1
+                continue
+            else:
+                nums[right], nums[cur] = nums[cur], nums[right]
+                right -= 1
+
+        return nums

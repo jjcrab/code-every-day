@@ -1,0 +1,48 @@
+# https: // leetcode.com/problems/verifying-an-alien-dictionary/
+'''
+In an alien language, surprisingly they also use english lowercase letters, but possibly in a different order. The order of the alphabet is some permutation of lowercase letters.
+
+Given a sequence of words written in the alien language, and the order of the alphabet, return true if and only if the given words are sorted lexicographicaly in this alien language.
+
+ 
+
+Example 1:
+
+Input: words = ["hello","leetcode"], order = "hlabcdefgijkmnopqrstuvwxyz"
+Output: true
+Explanation: As 'h' comes before 'l' in this language, then the sequence is sorted.
+Example 2:
+
+Input: words = ["word","world","row"], order = "worldabcefghijkmnpqstuvxyz"
+Output: false
+Explanation: As 'd' comes after 'l' in this language, then words[0] > words[1], hence the sequence is unsorted.
+Example 3:
+
+Input: words = ["apple","app"], order = "abcdefghijklmnopqrstuvwxyz"
+Output: false
+Explanation: The first three characters "app" match, and the second string is shorter (in size.) According to lexicographical rules "apple" > "app", because 'l' > '∅', where '∅' is defined as the blank character which is less than any other character (More info).
+'''
+
+
+class Solution:
+    def isAlienSorted(self, words: List[str], order: str) -> bool:
+        # dic = {}
+        # for i in range(26):
+        #     dic[order[i]] = i
+        dic = {v: i for i, v in enumerate(order)}
+
+        for m in range(len(words) - 1):
+            for n in range(min(len(words[m]), len(words[m + 1]))):
+                if dic[words[m][n]] < dic[words[m + 1][n]]:
+                    break
+                if dic[words[m][n]] == dic[words[m + 1][n]]:
+                    continue
+                else:
+                    return False
+            else:
+                if len(words[m]) > len(words[m + 1]):
+                    return False
+
+        return True
+
+# O (M) # O(1)
