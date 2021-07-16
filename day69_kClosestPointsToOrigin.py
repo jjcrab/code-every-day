@@ -46,6 +46,7 @@ class Solution:
         result = []
         for i in points:
             dis = i[0] ** 2 + i[1] ** 2
+            # logn
             heapq.heappush(heap, [dis, i[0], i[1]])
         for _ in range(k):
             cur = heapq.heappop(heap)
@@ -58,6 +59,7 @@ class Solution:
         result = []
 
         for i in points:
+            # logk
             heapq.heappush(heap, [-(i[0] ** 2 + i[1] ** 2), -i[0], -i[1]])
             if len(heap) > k:
                 heapq.heappop(heap)

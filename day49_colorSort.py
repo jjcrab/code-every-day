@@ -69,7 +69,7 @@ class Solution:
     """
 
     def sortColors(self, nums):
-        # three pointers
+        # three pointers - O(n)
         left, cur, right = 0, 0, len(nums) - 1
         while cur <= right:
             if nums[cur] == 0:
