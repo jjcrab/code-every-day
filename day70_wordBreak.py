@@ -33,7 +33,7 @@ class Solution:
             return False
         # start from True so length of list dp is 1 more than length of s
         dp = [False] * (len(s) + 1)
-        dp[0] = 1
+        dp[0] = True
         max_len = max([len(word) for word in wordDict])
         # for each letter
         for i in range(1, len(dp)):

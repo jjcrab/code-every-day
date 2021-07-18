@@ -58,3 +58,13 @@ class Solution:
             return self.quickSelect(nums, left, end, k - (left - start))
         # the pivot is between right and left
         return nums[right + 1]
+
+
+# use heap for    # heap
+        # import heapq
+        # heap = [-1 * i for i in nums]
+        # heapq.heapify(heap)
+        # for _ in range(k - 1):
+        #     heapq.heappop(heap)
+
+        # return -heapq.heappop(heap)
