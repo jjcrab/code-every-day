@@ -47,24 +47,44 @@ class Solution:
     @return: the value in the BST that is closest to the target
     """
 
+    # def closestValue(self, root, target):
+    #     result = []
+    #     self.dfs(root, result)
+    #     print(result)
+    #     for i in range(len(result)):
+    #         if result[i] > target:
+    #             if abs(result[i - 1] - target) > abs(result[i] - target):
+    #                 return result[i]
+    #             else:
+    #                 return result[i - 1]
+
+    #     return result[-1]
+
+    # def dfs(self, node, result):
+    #     if not node:
+    #         return
+    #     if node.left:
+    #         self.dfs(node.left, result)
+    #     result.append(node.val)
+    #     if node.right:
+    #         self.dfs(node.right, result)
+
+# better way to do it, Time: O(H), space: O(1)
     def closestValue(self, root, target):
-        result = []
-        self.dfs(root, result)
-        print(result)
-        for i in range(len(result)):
-            if result[i] > target:
-                if abs(result[i - 1] - target) > abs(result[i] - target):
-                    return result[i]
-                else:
-                    return result[i - 1]
+        lower, upper = root, root
+        while root:
+            # result on the right, set lower bound
+            if target > root.val:
+                lower = root
+                root = root.right
+            # result on the left, set upper bound
+            elif target < root.val:
+                upper = root
+                root = root.left
+            else:
+                return root.val
 
-        return result[-1]
-
-    def dfs(self, node, result):
-        if not node:
-            return
-        if node.left:
-            self.dfs(node.left, result)
-        result.append(node.val)
-        if node.right:
-            self.dfs(node.right, result)
+        if abs(target - lower.val) >= abs(target - upper.val):
+            return upper.val
+        else:
+            return lower.val
