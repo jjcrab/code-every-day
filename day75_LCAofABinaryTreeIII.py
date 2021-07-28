@@ -45,11 +45,27 @@ class Node:
 
 
 class Solution:
-    def lowestCommonAncestor(self, p: 'Node', q: 'Node') -> 'Node':
+    # one way
+    # def lowestCommonAncestor(self, p: 'Node', q: 'Node') -> 'Node':
 
-        p1, p2 = p, q
-        while p1 != p2:
-            p1 = p1.parent if p1.parent else q
-            p2 = p2.parent if p2.parent else p
+    # p1, p2 = p, q
+    # while p1 != p2:
+    #     p1 = p1.parent if p1.parent else q
+    #     p2 = p2.parent if p2.parent else p
 
-        return p1
+    # return p1
+
+    # easier to understand way
+    def lowestCommonAncestorII(self, root, A, B):
+        # use set()
+        ancestors = set([A])
+        node = A
+        while A.parent:
+            ancestors.add(A.parent)
+            A = A.parent
+
+        node_b = B
+        while node_b not in ancestors:
+            node_b = node_b.parent
+
+        return node_b
