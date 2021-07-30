@@ -55,6 +55,7 @@ class Solution:
     @param root: a TreeNode, the root of the binary tree
     @return: nothing
     """
+# O(N) & O(1)
 
     def flatten(self, root):
         if not root:
@@ -76,7 +77,7 @@ class Solution:
             # move on the right side of the tree
             node = node.right
 
-
+# O(N) and O(N)
 # # Definition for a binary tree node.
 # # class TreeNode:
 # #     def __init__(self, val=0, left=None, right=None):
