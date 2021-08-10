@@ -71,6 +71,7 @@ class Solution:
 
 # better way to do it, Time: O(H), space: O(1)
     def closestValue(self, root, target):
+        # two pointers
         lower, upper = root, root
         while root:
             # result on the right, set lower bound
